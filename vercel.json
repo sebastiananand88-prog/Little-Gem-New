@@ -1,0 +1,10 @@
+{
+  "outputDirectory": "fwdwebsiteidea",
+  "rewrites": [{ "source": "/", "destination": "/home (1).html" }],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    }
+  ]
+}
