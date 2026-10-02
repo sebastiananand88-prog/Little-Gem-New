@@ -1,6 +1,5 @@
 {
   "outputDirectory": "fwdwebsiteidea",
-  "rewrites": [{ "source": "/", "destination": "/home (1).html" }],
   "headers": [
     {
       "source": "/(.*)",
